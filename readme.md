@@ -1,6 +1,4 @@
-# document-distance [![Build Status](https://travis-ci.org/vinimdocarmo/node-document-distance.svg?branch=master)](https://travis-ci.org/vinimdocarmo/node-document-distance)
-
-> My supreme module
+# node-document-distance [![Build Status](https://travis-ci.org/vinimdocarmo/node-document-distance.svg?branch=master)](https://travis-ci.org/vinimdocarmo/node-document-distance)
 
 
 ## Install
