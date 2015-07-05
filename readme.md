@@ -17,7 +17,7 @@ var document1 = 'unicorns are awesome',
 	document2 = 'unicorns are amazing';
 
 documentDistance(document1, document2);
-//=> 0.0
+//=> 0.8410686705679303
 ```
 
 
