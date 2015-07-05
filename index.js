@@ -1,7 +1,5 @@
 'use strict';
 
-var _ = require('underscore');
-
 module.exports = function (doc1, doc2) {
 	if (typeof doc1 !== 'string' || typeof doc2 !== 'string') {
 		throw new TypeError('Expected two strings as arguments');
@@ -58,7 +56,15 @@ function countFrequency(words) {
 		i++;
 	}
 
-	return _.pairs(dictionary);
+	var pairs = [];
+
+	for(var word in dictionary) {
+		if(dictionary.hasOwnProperty(word)) {
+			pairs.push([word, dictionary[word]]);
+		}
+	}
+
+	return pairs;
 }
 
 function innerProduct(L1, L2) {
