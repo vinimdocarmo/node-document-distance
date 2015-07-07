@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "Compute how similar two documents are, in the sense of: how many words overlap in these documents.",
   "license": "MIT",
-  "repository": "vinimdocarmo/document-distance",
+  "repository": "vinimdocarmo/node-document-distance",
   "author": {
     "name": "Vinícius do Carmo",
     "email": "vinicius.m.do.carmo@gmail.com",
