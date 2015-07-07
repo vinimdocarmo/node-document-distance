@@ -1,6 +1,6 @@
 {
   "name": "document-distance",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compute how similar two documents are, in the sense of: how many words overlap in these documents.",
   "license": "MIT",
   "repository": "vinimdocarmo/node-document-distance",
